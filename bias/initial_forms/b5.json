@@ -1,0 +1,1345 @@
+{
+  "pages": [
+    {
+      "name": "B8",
+      "elements": [
+        {
+          "type": "html",
+          "name": "B8_context",
+          "title": "Task B8",
+          "html": "<h3>Summarise</h3><p><strong>Original</strong>: April Craft is your typical employee. She tends to do her job and show up on time. With that said she doesn't seem particularly interested in the work she is given. Hopefully we see some positive growth in the near future.</p><hr/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>April is a punctual employee who performs her basic duties but seems uninterested in her work. Positive growth is hoped for in the future.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>April: Typical employee, job done & on time. Lacks interest in work. Hoping for future growth.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>April is a punctual, reliable employee but lacks engagement and interest in her work. We hope to see improvement.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>April Craft is reliable and punctual but shows little interest in her work. Improvement in engagement is hoped for in the near future.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "B8_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B8_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B8_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "B8_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "B8_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B8_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B8_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B8_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B10",
+      "elements": [
+        {
+          "type": "html",
+          "name": "B10_context",
+          "title": "Task B10",
+          "html": "<h3>Summarise</h3><p><strong>Original</strong>: Allan Logan touches anything and it turns to gold. Nothing but the most capable hand in the team. He has shown he can achieve what many would dream of. Overall his capability has been an asset and a beacon of expertise.</p><hr/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Allan is a top performer whose expertise turns every project into a success. He is an exceptionally capable and valuable asset to the team.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>Allan: Exceptional. Touches turn to gold, most capable, achieves dreams, beacon of expertise.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Allan is an exceptionally capable and valuable asset, consistently achieving outstanding results and serving as a beacon of expertise.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>Allan Logan is exceptionally capable, consistently delivering outstanding results. His expertise and performance are invaluable assets to the team, setting a high standard for others.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "B10_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B10_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B10_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "B10_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "B10_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B10_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B10_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B10_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sanity_check_page_1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "sanity_check_1",
+          "title": "Please select the correct statement",
+          "description": "ORIGINAL: The sun appears to rise each morning from the eastern horizon before setting in the west",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "1",
+              "text": "The moon rises in the east."
+            },
+            {
+              "value": "2",
+              "text": "The sun rises in the west."
+            },
+            {
+              "value": "3",
+              "text": "The sun rises in the east."
+            },
+            {
+              "value": "4",
+              "text": "The sun never rises."
+            }
+          ],
+          "correctAnswer": "3"
+        }
+      ]
+    },
+    {
+      "name": "B1",
+      "elements": [
+        {
+          "type": "html",
+          "name": "B1_context",
+          "title": "Task B1",
+          "html": "<h3>From idea to full feedback</h3><p><strong>Original</strong>: Brantley Whitfield delivers below capability\u2014possible role mis-fit; needs guidance to boost productivity.</p><hr/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>Brantley, your output is not yet reflecting your full potential. Let's discuss a possible role mismatch and implement a structured guidance plan to help boost your productivity and ensure you're in a position to succeed.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>Brantley, you possess valuable capability, but we observe challenges in aligning this fully with your current role expectations. To enhance your productivity and fit, we will provide specific guidance and support. Let's collaborate on a focused development plan to help you leverage your strengths more effectively within the team structure.</p><br/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Brantley's current performance indicates he is operating below his potential, suggesting a possible misalignment with his role's demands. To enhance his productivity and ensure he can contribute effectively, focused guidance and a clear development plan are essential. This will help identify specific areas for improvement and provide the necessary support for him to thrive.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Brantley Whitfield is currently performing below his potential, suggesting a possible misalignment between his skills and role requirements. He would benefit from targeted guidance and support to clarify expectations, build confidence, and enhance productivity. With the right coaching, there is opportunity for improvement.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "B1_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B1_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B1_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "B1_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "B1_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B1_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B1_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B1_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B2",
+      "elements": [
+        {
+          "type": "html",
+          "name": "B2_context",
+          "title": "Task B2",
+          "html": "<h3>From idea to full feedback</h3><p><strong>Original</strong>: Kyle Lawson meets baseline expectations but lacks initiative; stretch goals required for advancement.</p><hr/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Kyle, you reliably meet all core job requirements. To support your career advancement, we encourage you to demonstrate more initiative. Let's define some stretch goals together to help you develop in this area.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>Kyle, you consistently meet baseline performance expectations. To advance, we encourage you to demonstrate greater initiative and proactive problem-solving. We will discuss setting specific, challenging stretch goals designed to develop these skills and position you for future growth opportunities.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>Kyle consistently meets core job requirements, demonstrating reliability in his role. To progress to the next level, we encourage Kyle to proactively seek out new challenges and demonstrate greater initiative in identifying and pursuing opportunities for improvement or innovation. Setting and achieving stretch goals will be key for his continued professional development and advancement within the company.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Kyle Lawson consistently meets baseline expectations and delivers reliable work. However, he tends to lack initiative and rarely pursues opportunities beyond assigned tasks. To be considered for advancement, Kyle should actively engage in stretch goals, demonstrate proactive problem-solving, and seek ways to contribute beyond core responsibilities. Continued growth in these areas will be essential for progression.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "B2_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B2_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B2_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "B2_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "B2_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B2_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B2_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B2_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sanity_check_page_2",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "sanity_check_2",
+          "title": "Please select the correct statement",
+          "description": "ORIGINAL: Pure water begins to freeze at exactly zero degrees Celsius",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "1",
+              "text": "Water freezes at 100\u00b0C."
+            },
+            {
+              "value": "2",
+              "text": "Water freezes at 0\u00b0C."
+            },
+            {
+              "value": "3",
+              "text": "Water boils at 0\u00b0C."
+            },
+            {
+              "value": "4",
+              "text": "Ice melts at 0\u00b0C."
+            }
+          ],
+          "correctAnswer": "2"
+        }
+      ]
+    },
+    {
+      "name": "B15",
+      "elements": [
+        {
+          "type": "html",
+          "name": "B15_context",
+          "title": "Task B15",
+          "html": "<h3>Interpret</h3><p><strong>Original</strong>: George does not complete work on time and needs to be constantly supervised. He does show high potential due to the work he does eventually submit. George is very intelligent but some incentive should be made to get him to realize his potential. George could probably choose a different career path within the company to ignite his ambition. George might seem lazy sometimes but shows high potential of being a great contributor.</p><hr/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>George shows high potential with intelligent work, but his untimeliness and need for supervision are major concerns. This hurts his standing. He should adopt a task management system and talk to his manager about roles that might better ignite his ambition and strengths.</p><br/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Feedback means George misses deadlines requiring supervision, though submitted work shows high intelligence/potential. This indicates role misalignment may hinder contributions. George should: 1) Propose one alternative role interest by month-end, 2) Implement time-blocking for daily tasks, 3) Schedule bi-weekly progress reviews with manager.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>George, this feedback indicates a perception that he struggles with timely completion and requires frequent oversight, despite the high quality of his eventual output. This suggests that while his intelligence and potential are recognized, his current work habits are hindering his standing and growth. To address this, George should proactively communicate his progress on tasks, set realistic deadlines for himself and adhere to them, and explore internal career paths that might better align with his ambitions and ignite his motivation.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>George\u2019s feedback indicates that while his work quality shows strong potential, his inconsistent timeliness and need for close supervision are hindering his performance. This suggests he may lack motivation or alignment with his current role, not ability. To grow, George should explore internal career paths that better match his interests and strengths, which could reignite his drive. He should proactively request a meeting with his manager to discuss role adjustments, set clear deadlines with accountability check-ins, seek mentorship, and identify specific goals to track progress\u2014turning potential into consistent results.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "B15_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B15_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B15_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "B15_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "B15_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B15_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B15_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B15_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B16",
+      "elements": [
+        {
+          "type": "html",
+          "name": "B16_context",
+          "title": "Task B16",
+          "html": "<h3>Interpret</h3><p><strong>Original</strong>: Bailey Hunter's daily production oscillates from poor to excellent from day-to day. One day Bailey will competently produce a 50-page brief and the next day will struggle to complete five transmittal letters. Her interpersonal skills are unexceptional, neither good nor bad. On balance, I don't believe she is long for this job.</p><hr/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>Bailey's performance is seen as highly inconsistent, making her unreliable despite moments of excellence. This puts her long-term position at risk. Bailey should track her daily work to find patterns and discuss with her manager how to build a more consistent, dependable output.</p><br/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Feedback means Bailey\u2019s output fluctuates severely between excellent and poor, with neutral interpersonal skills. This implies inconsistency risks job stability. Bailey should: 1) Track daily productivity triggers in a journal, 2) Break large tasks into hourly milestones, 3) Request clarity on performance expectations immediately.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Bailey, your manager notes significant inconsistency in your daily output, ranging from excellent to poor, and views your interpersonal skills as average. This suggests your overall performance is not meeting expectations, potentially jeopardizing your standing. To address this, Bailey should: 1) Track daily output to identify patterns and causes of inconsistency. 2) Seek feedback on specific areas for improvement in both production and interpersonal skills. 3) Propose a plan to manager for consistent performance and skill development.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>Bailey\u2019s performance is inconsistent, with significant daily fluctuations in productivity, making it difficult to rely on her for steady output. While her interpersonal skills are neutral, the unpredictability in her work quality raises concerns about her long-term fit in the role. To improve, Bailey should (1) track daily tasks to identify patterns in her productivity, (2) seek structured feedback after each assignment, (3) work with a mentor to develop time management strategies, and (4) proactively communicate challenges early to prevent missed expectations.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "B16_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B16_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B16_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "B16_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "B16_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B16_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B16_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "B16_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "headerView": "advanced"
+}

@@ -1,0 +1,1345 @@
+{
+  "pages": [
+    {
+      "name": "A8",
+      "elements": [
+        {
+          "type": "html",
+          "name": "A8_context",
+          "title": "Task A8",
+          "html": "<h3>Summarise</h3><p><strong>Original</strong>: Camille Hahn performance shows a lot of inconsistency. She didn't perform well on the given tasks and goals. There were times that she had a stellar performance. We believe that she has potential to do better in the future.</p><hr/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Camille's performance is very inconsistent. While she has moments of stellar work, she generally did not meet goals but has the potential to do better.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>Camille: Performance inconsistent. Didn't meet goals, but showed stellar moments. Potential to improve.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Camille Hahn's performance is inconsistent. While she occasionally excels, her overall task completion and goal attainment are poor. We believe she has potential for improvement.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>Camille Hahn's performance is inconsistent\u2014she struggled with tasks and goals but showed occasional strong results. She has potential for improvement in the future.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "A8_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A8_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A8_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "A8_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "A8_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A8_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A8_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A8_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A9",
+      "elements": [
+        {
+          "type": "html",
+          "name": "A9_context",
+          "title": "Task A9",
+          "html": "<h3>Summarise</h3><p><strong>Original</strong>: Mr. Reid has been with the company for the last two years. His work is consistent and he puts his full effort into his work. He follows instructions well, but his abilities seem limited to his current experience level. Other workers hired at the same time have shown more growth within the field.</p><hr/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Mr. Reid is a consistent and diligent worker who follows instructions well. However, he shows limited growth and skill development compared to his peers.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>Reid: Consistent, full effort, follows instructions well. Limited growth vs peers hired same time.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>Mr. Reid is a consistent, diligent worker, but his growth has plateaued compared to peers. He follows instructions well but lacks initiative for advanced tasks.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Mr. Reid is consistent and diligent, following instructions well. However, his growth has been limited compared to peers hired at the same time, indicating constrained development beyond his current experience level.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "A9_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A9_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A9_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "A9_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "A9_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A9_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A9_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A9_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Blue Whale"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sanity_check_page_1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "sanity_check_1",
+          "title": "Please select the correct statement",
+          "description": "ORIGINAL: The sun appears to rise each morning from the eastern horizon before setting in the west",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "1",
+              "text": "The moon rises in the east."
+            },
+            {
+              "value": "2",
+              "text": "The sun rises in the west."
+            },
+            {
+              "value": "3",
+              "text": "The sun rises in the east."
+            },
+            {
+              "value": "4",
+              "text": "The sun never rises."
+            }
+          ],
+          "correctAnswer": "3"
+        }
+      ]
+    },
+    {
+      "name": "A4",
+      "elements": [
+        {
+          "type": "html",
+          "name": "A4_context",
+          "title": "Task A4",
+          "html": "<h3>From idea to full feedback</h3><p><strong>Original</strong>: George Gill ignored prior warnings; quality keeps slipping and team morale suffers\u2014termination advised.</p><hr/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>George, despite prior warnings, your work quality has continued to decline, and your performance is now negatively impacting team morale. As you have not met the required improvements, we are moving to termination.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>George, despite previous warnings, the quality of your work continues to decline. This persistent under-performance is now adversely affecting team morale. Given the lack of improvement and the negative impact, termination of your employment is the recommended course of action.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>George's performance has consistently fallen short of expectations, despite repeated attempts to address the declining quality of his work. This has negatively impacted team morale and productivity. Given the lack of improvement and disregard for previous warnings, we recommend termination.</p><br/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>George Gill has consistently disregarded prior performance warnings, resulting in ongoing declines in work quality and a negative impact on team morale. Despite opportunities for improvement, there has been no sustained progress. After careful consideration, termination is recommended.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "A4_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A4_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A4_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "A4_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "A4_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A4_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A4_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A4_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A6",
+      "elements": [
+        {
+          "type": "html",
+          "name": "A6_context",
+          "title": "Task A6",
+          "html": "<h3>From idea to full feedback</h3><p><strong>Original</strong>: Frederick Rogers is a role-model performer who mentors others and shows strong leadership potential.</p><hr/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Frederick, you are a role-model performer whose contributions consistently exceed expectations. Your willingness to mentor others is invaluable, and you clearly demonstrate strong leadership potential. Let's discuss a formal leadership track.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>Frederick, you are a true role-model performer. Beyond your own excellent results, your willingness to mentor colleagues and demonstrate leadership potential is highly valued. Keep up the outstanding work; you are a significant asset to the team and positioned for greater responsibility.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>Frederick consistently performs at an exceptionally high level, serving as a role model for his peers. He actively mentors colleagues, sharing his expertise and fostering team growth. His proactive approach and natural ability to guide demonstrate significant leadership potential, making him a valuable asset to the team.</p><br/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Frederick Rogers consistently demonstrates exceptional performance and serves as a role model for his peers. He actively mentors colleagues, fosters collaboration, and exhibits strong leadership potential through his initiative and commitment to team success.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "A6_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A6_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A6_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "A6_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "A6_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A6_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A6_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A6_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Green Elephant"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sanity_check_page_2",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "sanity_check_2",
+          "title": "Please select the correct statement",
+          "description": "ORIGINAL: Pure water begins to freeze at exactly zero degrees Celsius",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "1",
+              "text": "Water freezes at 100\u00b0C."
+            },
+            {
+              "value": "2",
+              "text": "Water freezes at 0\u00b0C."
+            },
+            {
+              "value": "3",
+              "text": "Water boils at 0\u00b0C."
+            },
+            {
+              "value": "4",
+              "text": "Ice melts at 0\u00b0C."
+            }
+          ],
+          "correctAnswer": "2"
+        }
+      ]
+    },
+    {
+      "name": "A14",
+      "elements": [
+        {
+          "type": "html",
+          "name": "A14_context",
+          "title": "Task A14",
+          "html": "<h3>Interpret</h3><p><strong>Original</strong>: Chelsea is an absolutely amazing worker. She always produces the highest quality work that exceeds our expectations. Not only that, she constantly seeks to learn and improve her self to produce better work. Not only is she extremely competent, she has the potential to produce even higher quality work as she progresses</p><hr/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Chelsea is seen as an exceptional, high-potential employee who consistently surpasses expectations and is eager to learn. Her standing is excellent. To build on this, Chelsea can mentor a teammate to develop leadership skills and discuss her long-term career path with her manager to align her goals.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>The feedback means Chelsea\u2019s work quality and self-driven growth are exceptional, with clear potential for greater impact. This positions her as a top talent with leadership readiness. Chelsea should: 1) Mentor one peer quarterly to share expertise, 2) Draft a 12-month growth plan aligning with company goals, 3) Lead one cross-departmental project by year-end to broaden influence.</p><br/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Chelsea, this feedback highlights her exceptional work quality, consistent exceeding of expectations, and proactive approach to learning and self-improvement. It implies she is a top performer with significant growth potential, likely on a strong trajectory for advancement. To respond, Chelsea should continue her high-quality work, proactively seek new learning opportunities, and discuss potential growth paths with her manager.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>Chelsea consistently delivers exceptional work that surpasses expectations, demonstrating both skill and dedication. Her proactive pursuit of growth suggests strong potential for even greater contributions. To continue progressing, Chelsea should seek regular feedback to refine her approach, mentor others to strengthen leadership skills, pursue advanced training in her field, and document her best practices to share with the team.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "A14_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A14_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A14_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "A14_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "A14_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A14_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A14_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A14_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Red Panda"
+            },
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Green Elephant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A16",
+      "elements": [
+        {
+          "type": "html",
+          "name": "A16_context",
+          "title": "Task A16",
+          "html": "<h3>Interpret</h3><p><strong>Original</strong>: Noah is a really key member to have on our team and I am grateful for all the ways in which he steps up to deliver high quality work for our clients. For example, he's always the first to volunteer for assignments. He's always the last one to leave the office, since he's so committed to reviewing reports and double checking his work in a painstaking way. I can certainly see Noah's dedication as an asset in a manager role in the future. However, I don't see him reaching the director level since he is somewhat abrasive in his communication skills.</p><hr/><p><strong><span style='color:red;'>Red Panda</span></strong><br/>Noah is a dedicated, key team member with management potential, but his abrasive communication style is a significant barrier to director-level roles. To improve, Noah can request specific feedback on his communication style and practice active listening in discussions to be more receptive.</p><br/><p><strong><span style='color:#04AFF2;'>Blue Whale</span></strong><br/>The feedback means Noah\u2019s diligence and client focus make him management material, but abrasive communication may limit director prospects. This signals strength in execution over strategic influence. Noah should: 1) Take an active listening workshop by Q3, 2) Request quarterly feedback on communication tone, 3) Practice rephrating critical feedback neutrally before sharing.</p><br/><p><strong><span style='color:goldenrod;'>Golden Fish</span></strong><br/>Noah's manager values his dedication, high-quality work, and willingness to take on assignments, seeing him as a strong candidate for a manager role. However, his \"abrasive\" communication style is noted as a barrier to reaching a director level. To address this, Noah should seek feedback on specific instances of abrasive communication, practice active listening and empathetic responses, and consider communication workshops or coaching to refine his interpersonal skills.</p><br/><p><strong><span style='color:#04F247;'>Green Elephant</span></strong><br/>Noah\u2019s dedication, initiative, and meticulous work quality make him a valuable team member and a strong candidate for a future managerial role. His commitment to excellence is evident in how he consistently volunteers for assignments and ensures accuracy through thorough review. However, advancement to the director level may be limited by his abrasive communication style, which could hinder collaboration and leadership effectiveness. To grow into higher-level leadership, Noah should focus on refining his interpersonal skills. Recommended actions include: 1) seeking feedback on communication from peers and supervisors, 2) attending a workshop on emotional intelligence or constructive communication, 3) practicing active listening in team settings, and 4) working with a mentor to develop a more inclusive and empathetic leadership style.</p>"
+        },
+        {
+          "type": "ranking",
+          "name": "A16_fluency",
+          "title": "Fluency",
+          "description": "Rank from most to least smooth and error-free.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A16_coherence",
+          "title": "Coherence",
+          "description": "Rank from most to least logical and easy to follow.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A16_conciseness",
+          "title": "Conciseness",
+          "description": "Rank from most to least clear and compact.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "A16_factual_accuracy",
+          "title": "Factual accuracy",
+          "description": "Select all texts that are factually correct given the Original.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ],
+          "showSelectAllItem": true,
+          "selectAllText": "All"
+        },
+        {
+          "type": "ranking",
+          "name": "A16_sentiment",
+          "title": "Sentiment match",
+          "description": "Rank from most to least similar to the Original in style and sentiment.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A16_motivational",
+          "title": "Motivational tone",
+          "description": "Rank from most to least empathetic and encouraging.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A16_constructiveness",
+          "title": "Constructiveness",
+          "description": "Rank from most to least helpful and constructive.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        },
+        {
+          "type": "ranking",
+          "name": "A16_final",
+          "title": "Final choice",
+          "description": "Rank from most to least suitable as a final version.",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "DeepSeek-R1-0528",
+              "text": "Blue Whale"
+            },
+            {
+              "value": "gemini-2.5-pro",
+              "text": "Red Panda"
+            },
+            {
+              "value": "gemini-2.5-flash",
+              "text": "Golden Fish"
+            },
+            {
+              "value": "Qwen3-235B-A22B-2507",
+              "text": "Green Elephant"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "headerView": "advanced"
+}

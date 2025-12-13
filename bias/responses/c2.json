@@ -1,0 +1,105 @@
+{
+  "taskId": "c2",
+  "url": "https://survey.timofeev41.com/?id=c2&page=7",
+  "timestamp": "2025-09-10T13:46:12.017000+00:00",
+  "responses": {
+    "C18_factual_accuracy": [
+      "DeepSeek-R1-0528",
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-pro",
+      "gemini-2.5-flash"
+    ],
+    "C15_motivational": [
+      "gemini-2.5-pro",
+      "DeepSeek-R1-0528",
+      "gemini-2.5-flash",
+      "Qwen3-235B-A22B-2507"
+    ],
+    "C18_final": [
+      "gemini-2.5-pro",
+      "DeepSeek-R1-0528",
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-flash"
+    ],
+    "C15_coherence": [
+      "DeepSeek-R1-0528",
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-pro",
+      "gemini-2.5-flash"
+    ],
+    "C18_constructiveness": [
+      "DeepSeek-R1-0528",
+      "gemini-2.5-pro",
+      "gemini-2.5-flash",
+      "Qwen3-235B-A22B-2507"
+    ],
+    "C15_constructiveness": [
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-flash",
+      "gemini-2.5-pro",
+      "DeepSeek-R1-0528"
+    ],
+    "C15_fluency": [
+      "gemini-2.5-flash",
+      "gemini-2.5-pro",
+      "Qwen3-235B-A22B-2507",
+      "DeepSeek-R1-0528"
+    ],
+    "C18_conciseness": [
+      "gemini-2.5-pro",
+      "DeepSeek-R1-0528",
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-flash"
+    ],
+    "C18_motivational": [
+      "DeepSeek-R1-0528",
+      "gemini-2.5-pro",
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-flash"
+    ],
+    "C15_conciseness": [
+      "gemini-2.5-pro",
+      "DeepSeek-R1-0528",
+      "gemini-2.5-flash",
+      "Qwen3-235B-A22B-2507"
+    ],
+    "C18_sentiment": [
+      "DeepSeek-R1-0528",
+      "gemini-2.5-pro",
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-flash"
+    ],
+    "C18_coherence": [
+      "gemini-2.5-pro",
+      "DeepSeek-R1-0528",
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-flash"
+    ],
+    "C18_fluency": [
+      "gemini-2.5-pro",
+      "DeepSeek-R1-0528",
+      "Qwen3-235B-A22B-2507",
+      "gemini-2.5-flash"
+    ],
+    "C15_final": [
+      "DeepSeek-R1-0528",
+      "gemini-2.5-pro",
+      "gemini-2.5-flash",
+      "Qwen3-235B-A22B-2507"
+    ],
+    "C15_factual_accuracy": [
+      "Qwen3-235B-A22B-2507",
+      "DeepSeek-R1-0528",
+      "gemini-2.5-flash",
+      "gemini-2.5-pro"
+    ],
+    "C15_sentiment": [
+      "gemini-2.5-pro",
+      "DeepSeek-R1-0528",
+      "gemini-2.5-flash",
+      "Qwen3-235B-A22B-2507"
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+  "_doc_id": "1MvZlrwcu4aSb7Jf6RSt"
+}

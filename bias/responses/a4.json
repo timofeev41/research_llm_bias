@@ -1,0 +1,285 @@
+{"taskId": "a4",
+  "url": "https://survey.timofeev41.com/?id=a4&page=7",
+  "timestamp": "2025-09-13T14:46:55.512000+00:00",
+  "responses": {
+    "A8_fluency": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "A8_coherence": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro"
+    ],
+    "A8_conciseness": [
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro",
+       "gemini-2.5-flash"
+    ],
+    "A8_factual_accuracy": [
+       "gemini-2.5-pro",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A8_sentiment": [
+       "gemini-2.5-pro",
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528"
+    ],
+    "A8_motivational": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "A8_constructiveness": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro"
+    ],
+    "A8_final": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro"
+    ],
+    "A11_fluency": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "A11_coherence": [
+       "gemini-2.5-pro",
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528"
+    ],
+    "A11_conciseness": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A11_factual_accuracy": [
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528"
+    ],
+    "A11_sentiment": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro"
+    ],
+    "A11_motivational": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "A11_constructiveness": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro"
+    ],
+    "A11_final": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "sanity_check_1": "3",
+    "A2_fluency": [
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "A2_coherence": [
+       "gemini-2.5-pro",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A2_conciseness": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A2_factual_accuracy": [
+       "gemini-2.5-pro"
+    ],
+    "A2_sentiment": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A2_motivational": [
+       "DeepSeek-R1-0528",
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-pro"
+    ],
+    "A2_constructiveness": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash"
+    ],
+    "A2_final": [
+       "DeepSeek-R1-0528",
+       "gemini-2.5-flash",
+       "gemini-2.5-pro",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A3_fluency": [
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-pro"
+    ],
+    "A3_coherence": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash"
+    ],
+    "A3_conciseness": [
+       "gemini-2.5-pro",
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-flash"
+    ],
+    "A3_factual_accuracy": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "A3_sentiment": [
+       "gemini-2.5-pro",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528"
+    ],
+    "A3_motivational": [
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-pro",
+       "gemini-2.5-flash"
+    ],
+    "A3_constructiveness": [
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash"
+    ],
+    "A3_final": [
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash"
+    ],
+    "sanity_check_2": "2",
+    "A13_fluency": [
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro",
+       "gemini-2.5-flash"
+    ],
+    "A13_coherence": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash"
+    ],
+    "A13_conciseness": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash"
+    ],
+    "A13_factual_accuracy": [
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A13_sentiment": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash"
+    ],
+    "A13_motivational": [
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro"
+    ],
+    "A13_constructiveness": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash"
+    ],
+    "A13_final": [
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-pro",
+       "gemini-2.5-flash"
+    ],
+    "A16_fluency": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "A16_coherence": [
+       "gemini-2.5-pro",
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528"
+    ],
+    "A16_conciseness": [
+       "gemini-2.5-pro",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A16_factual_accuracy": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528"
+    ],
+    "A16_sentiment": [
+       "gemini-2.5-pro",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-flash",
+       "Qwen3-235B-A22B-2507"
+    ],
+    "A16_motivational": [
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528",
+       "gemini-2.5-pro"
+    ],
+    "A16_constructiveness": [
+       "gemini-2.5-pro",
+       "Qwen3-235B-A22B-2507",
+       "gemini-2.5-flash",
+       "DeepSeek-R1-0528"
+    ],
+    "A16_final": [
+       "gemini-2.5-flash",
+       "gemini-2.5-pro",
+       "Qwen3-235B-A22B-2507",
+       "DeepSeek-R1-0528"
+    ]
+ }}
